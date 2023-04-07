@@ -1,0 +1,280 @@
+body {
+
+    display: flex;
+    align-content: center;
+    padding: 40px;
+    justify-content: center;
+    background-color: hsl(27, 66%, 92%);
+    Font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
+    color: hsl(0, 0%, 100%);
+}
+
+
+section {
+
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    gap: 20px;
+}
+
+.primeira-divisao {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: hsl(10, 79%, 65%);
+    height: 80px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.titulo-div-1 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    color: hsl(33, 100%, 98%);
+}
+
+.segunda-divisao {
+
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(33, 100%, 98%);
+    height: 400px;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.titulo-div-2 {
+
+    display: flex;
+    height: 100px;
+    padding: 20px;
+}
+
+
+.divisao-grafico {
+
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    justify-content: center;
+    gap: 5px;
+
+}
+
+.grafic-segunda {
+
+    display: flex;
+    flex-direction: column-reverse;
+    width: 50px;
+    gap: 5px;
+    align-items: center;
+}
+
+.barra-segunda {
+
+    background-color: hsl(10, 79%, 65%);
+    height: 20px;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.grafic-terca {
+
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 5px;
+    width: 50px;
+    align-items: center;
+}
+
+.barra-terca {
+
+    background-color: hsl(10, 79%, 65%);
+    height: 55px;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.grafic-quarta {
+
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 5px;
+    width: 50px;
+    align-items: center;
+}
+
+.barra-quarta {
+
+    background-color: hsl(186, 34%, 60%);
+    height: 99px;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.grafic-quinta {
+
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 5px;
+    width: 50px;
+    align-items: center;
+}
+
+.barra-quinta {
+
+    background-color: hsl(10, 79%, 65%);
+    height: 45px;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.grafic-sexta {
+
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 5px;
+    width: 50px;
+    align-items: center;
+}
+
+.barra-sexta {
+
+    background-color: hsl(10, 79%, 65%);
+    height: 30px;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.grafic-sabado {
+
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 5px;
+    width: 50px;
+    align-items: center;
+}
+
+.barra-sabado {
+
+    background-color: hsl(10, 79%, 65%);
+    height: 75px;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.grafic-domingo {
+
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 5px;
+    width: 50px;
+    align-items: center;
+}
+
+.barra-domingo {
+
+    background-color: hsl(10, 79%, 65%);
+    height: 35px;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.barra-segunda:hover,
+.barra-terca:hover,
+.barra-quarta:hover,
+.barra-quinta:hover,
+.barra-sexta:hover,
+.barra-sabado:hover,
+.barra-domingo:hover {
+    background-color: hsl(10, 100%, 75%);
+    cursor: grab;
+}
+
+
+.divisao-total {
+
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.total-mes {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.total-mes h1,
+.titulo-div-2 h3,
+.porcentagem-total p:nth-child(1) {
+
+    font-weight: bold;
+    color: hsl(25, 47%, 15%);
+}
+
+.porcentagem-total {
+
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}
+
+.aviso {
+
+    width: 100%;
+    height: 40px;
+    background-color: hsl(25, 47%, 15%);
+    border-radius: 8px;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.aviso.oculto {
+
+    display: none;
+}
+
+
+@media(max-width: 375px){
+
+    sextion{
+
+        max-width: 375px;
+        padding: 15px;
+    }
+
+    .primeira-divisao{
+
+        max-width: 360px;
+    }
+
+    .segunda-divisao{
+
+        max-width: 360px;
+    }
+
+    .divisao-total{
+
+        padding: 0px;
+    }
+
+    .porcentagem-total{
+
+        padding: 0px;
+    }
+
+
+} 
